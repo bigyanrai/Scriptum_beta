@@ -1,0 +1,21 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="black" stroke-width="4">
+    <rect x="10" y="25" width="55" height="40" rx="8"/>
+    <polygon points="28,65 40,65 34,78"/>
+    <line x1="20" y1="38" x2="50" y2="38"/>
+    <line x1="20" y1="48" x2="45" y2="48"/>
+  </g>
+
+  <path d="M65 25 L85 45 L72 58 L52 38 Z"
+        fill="black"/>
+
+  <circle cx="66" cy="44" r="3" fill="white"/>
+
+  <text x="110" y="58"
+        font-family="Georgia, serif"
+        font-size="34"
+        font-weight="bold"
+        fill="black">
+        InkNest
+  </text>
+</svg>

@@ -1,0 +1,51 @@
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+sentiment-api/venv/
+
+# Vercel
+.vercel/
+
+# ML datasets
+backend/ml/datasets/*.csv
+
+
+# Local uploaded media (now migrated to Cloudinary)
+backend/uploads/*
+!backend/uploads/avatar/
+backend/uploads/avatar/*
+!backend/uploads/avatar/avatar.svg

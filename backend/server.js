@@ -57,8 +57,13 @@ app.use("/api/notifications", notificationRoutes);
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // start server
-const PORT = process.env.PORT || 5000;
+// start server locally
+if (process.env.NODE_ENV !== "production") {
+  const PORT = process.env.PORT || 8000;
 
-app.listen(PORT, () => {
-  console.log(`SERVER IS RUNNING IN PORT ${PORT}`);
-});
+  app.listen(PORT, () => {
+    console.log(`SERVER IS RUNNING IN PORT ${PORT}`);
+  });
+}
+
+export default app;

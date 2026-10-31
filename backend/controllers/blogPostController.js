@@ -6,7 +6,7 @@ import PostView from "../models/PostView.js";
 import mongoose from "mongoose";
 import { rebuildIndex } from "../services/search/rebuildIndex.js";
 import PostClap from "../models/PostClap.js";
-import User from "../models/user.js";
+import User from "../models/User.js";
 import PostBookmark from "../models/PostBookmark.js";
 import {
   recordPostLike,
